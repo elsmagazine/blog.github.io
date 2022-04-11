@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<title>Form submission</title>
+<style>
+center {
+  font-size: 50px;
+}
+
+input {
+  font-size: 40px;
+}
+
+p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+
+<form action="mail_handler.php" method="post">
+<p><center>First Name: <input type="text" name="first_name"></center><br></p>
+<p><center>Last Name: <input type="text" name="last_name"></center><br></p>
+<p><center>Mobile/Email: <input type="text" name="email"><center><br></p>
+<p><center>Class/Course Name:<br><textarea rows="10" name="message" cols="50"></textarea></center><br></p>
+<center><input type="submit" name="submit" value="Submit"></center>
+</form>
+
+</body>
+</html>
